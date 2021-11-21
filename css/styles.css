@@ -478,6 +478,9 @@ a[href="https://www.google.com.ua/maps/place/бул.+Леси+Украинки,+
 .footer-text {
   margin-bottom: 20px;
   color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .footer-social-list {
