@@ -240,7 +240,7 @@ body {
 .about-container {
   padding: 25px 100px;
   height: 120px;
-  background-color: #ccc;
+  background-color: #f5f4fa;
 }
 
 .about-svg {
@@ -398,8 +398,6 @@ body {
 .clients-item {
   width: 170px;
   margin-right: 30px;
-  border: 1px solid #afb1b8;
-  border-radius: 3%;
 }
 
 .clients-item:last-child {
@@ -408,12 +406,22 @@ body {
 .clients-link {
   display: block;
   padding: 16px 32px;
+  color: #afb1b8;
+  border: 1px solid #afb1b8;
+  border-radius: 3%;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+  color: var(--accent);
+  border: 1px solid #2196f3;
+  border-radius: 3%;
 }
 
 .clients-svg {
   width: 106px;
   height: 60px;
-  fill: #afb1b8;
+  fill: currentColor;
 }
 
 /* ------------------------------footer */
